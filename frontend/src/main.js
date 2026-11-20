@@ -2,6 +2,7 @@
 import './style.css';
 
 const app = document.querySelector('#app');
+const API_URL = import.meta.env.VITE_API_BASE_URL ||"https://employee-management-backend-vkz2.onrender.com/";
 
 const initialEmployees = [
   { id: 1, name: 'Arun Kumar', username: 'employee', department: 'IT', designation: 'Developer', email: 'arun@company.com', salary: 35000 },
